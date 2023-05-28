@@ -1,0 +1,11 @@
+[
+  {
+	"name": "Server Configuration",
+    "port": 8080
+  },
+  {
+	"name":  "Client Configuration",
+    "port": 8080,
+	"ipAddr": "127.0.0.1"
+  }
+]
