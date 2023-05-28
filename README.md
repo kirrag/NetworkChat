@@ -48,28 +48,29 @@
     Отправить на проверку.
 
 ### Классы:
-Main:			src/main/java/ru/netology/Main.java
-ChatServer:		src/main/java/ru/netology/server/ChatServer.java
-ChatClient:		src/main/java/ru/netology/client/ChatClient.java
-Configuration:	src/main/java/ru/netology/share/Configuration.java
-Connection:		src/main/java/ru/netology/share/Connection.java
-Listener:		src/main/java/ru/netology/share/Listener.java
-Logger:			src/main/java/ru/netology/share/Logger.java
+
+* Main:				src/main/java/ru/netology/Main.java
+* ChatServer:		src/main/java/ru/netology/server/ChatServer.java
+* ChatClient:		src/main/java/ru/netology/client/ChatClient.java
+* Configuration:	src/main/java/ru/netology/share/Configuration.java
+* Connection:		src/main/java/ru/netology/share/Connection.java
+* Listener:			src/main/java/ru/netology/share/Listener.java
+* Logger:			src/main/java/ru/netology/share/Logger.java
 
 ### Файл конфигрурации: 
-conf/settings.json
+- conf/settings.json
 
 ### Журнал сервера: 
-log/server.log
+- log/server.log
 
 ### Журнал клиента: 
-log/<User Name>_client.log
+- log/<User Name>_client.log
 
 ### Запуск сервера: 
-mvn exec:java -D exec.mainClass=ru.netology.Main
+- mvn exec:java -D exec.mainClass=ru.netology.Main
 
 ### Запуск клиента: 
-mvn exec:java -D exec.mainClass=ru.netology.client.ChatClient
+- mvn exec:java -D exec.mainClass=ru.netology.client.ChatClient
 
 
 
