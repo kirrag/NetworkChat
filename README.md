@@ -64,7 +64,7 @@
 - log/server.log
 
 ### Журнал клиента: 
-- log/UserName_client.log
+- log/{UserName}_client.log
 
 ### Запуск сервера: 
 - mvn exec:java -D exec.mainClass=ru.netology.Main
